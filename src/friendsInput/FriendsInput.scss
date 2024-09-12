@@ -1,0 +1,28 @@
+.inputDiv {
+    margin-top: 30px;
+    background-color: bisque;
+    padding: 30px;
+
+    div .flex {
+        display: flex;
+        padding-bottom: 20px;
+
+        p {
+            padding-right: 30px;
+        }
+    }
+
+    .regBtn {
+        justify-content: center;
+        display: flex;
+
+        button {
+            cursor: pointer;
+            border: none;
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 120px;
+        }
+    }
+}

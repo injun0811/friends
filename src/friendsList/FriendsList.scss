@@ -1,0 +1,50 @@
+.left {
+    border: 1px solid;
+    width: 500px;
+    padding: 30px;
+    margin: 30px;
+
+    .infoPanel {
+        display: flex;
+        justify-content: space-between;
+
+        .chkBox {
+            background-color: darkorange;
+            padding: 0 20px;
+        }
+    }
+    ul li {
+        display: flex;
+        justify-content: space-between;
+
+        .imgDiv {
+            display: flex;
+        }
+
+        div {
+            padding: 20px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border: 5px solid gray;
+            border-radius: 50%;
+        }
+    }
+
+    .btnDiv {
+        justify-content: center;
+        display: flex;
+
+        button {
+            cursor: pointer;
+            border: none;
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 120px;
+        }
+    }
+}
